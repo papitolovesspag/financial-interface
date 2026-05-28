@@ -1,0 +1,16 @@
+{
+  "name": "FinCalc - Financial Interface",
+  "short_name": "FinCalc",
+  "description": "A mobile-first financial toolkit for interest, profit, bills, tips, loans, and ROI calculations.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#14b8a6",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

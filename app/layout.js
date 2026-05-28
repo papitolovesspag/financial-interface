@@ -6,11 +6,12 @@ export const metadata = {
   description:
     "A mobile-first financial toolkit for interest, profit, bills, tips, loans, and ROI calculations.",
   icons: {
-    icon: [
-      { rel: "icon", url: "/favicon.ico" },
-      { rel: "icon", url: "/icon.svg", type: "image/svg+xml" },
-      { rel: "apple-touch-icon", url: "/apple-touch-icon.png" },
-    ],
+    icon: "/icon.svg",
+  },
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
   },
 };
 
