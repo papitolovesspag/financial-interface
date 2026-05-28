@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Financial Interface logo">
+  <defs>
+    <linearGradient id="bg" x1="18" y1="16" x2="110" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="0.48" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="38" y1="86" x2="94" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ecfeff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="#07111f"/>
+  <rect x="10" y="10" width="108" height="108" rx="28" fill="url(#bg)"/>
+  <path d="M34 82.5 51.8 64.7 66.5 75.8 94 43" fill="none" stroke="url(#spark)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M33 96h62" fill="none" stroke="#fff" stroke-opacity=".82" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="34" cy="82.5" r="7" fill="#07111f"/>
+  <circle cx="51.8" cy="64.7" r="7" fill="#07111f"/>
+  <circle cx="66.5" cy="75.8" r="7" fill="#07111f"/>
+  <circle cx="94" cy="43" r="7" fill="#07111f"/>
+  <text x="64" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="900" fill="#07111f">FI</text>
+</svg>
