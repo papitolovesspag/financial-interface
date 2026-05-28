@@ -2,11 +2,15 @@ import SiteShell from "@/components/SiteShell";
 import "./globals.css";
 
 export const metadata = {
-  title: "Financial Interface",
+  title: "FinCalc - Financial Interface",
   description:
     "A mobile-first financial toolkit for interest, profit, bills, tips, loans, and ROI calculations.",
   icons: {
-    icon: "/icon.svg",
+    icon: [
+      { rel: "icon", url: "/favicon.ico" },
+      { rel: "icon", url: "/icon.svg", type: "image/svg+xml" },
+      { rel: "apple-touch-icon", url: "/apple-touch-icon.png" },
+    ],
   },
 };
 
